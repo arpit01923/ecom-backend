@@ -9,6 +9,7 @@ const productRoute = require("./routes/product");
 const cartRoute = require("./routes/cart");
 const wishlistRoute = require("./routes/wishlist");
 
+
 dotenv.config();
 
 mongoose.set("strictQuery", false);
